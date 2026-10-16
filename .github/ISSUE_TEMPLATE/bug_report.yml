@@ -32,7 +32,8 @@ body:
   - type: dropdown
     id: side
     attributes:
-      label: Where does it happen? Please check what your log says this helps speed up the debugging process. Only select unknown as a last resort.
+      label: Where does it happen? 
+      description: Please check what your log says, this helps speed up the debugging process. Only select unknown as a last resort.
       options:
         - Singleplayer
         - Multiplayer (client)
