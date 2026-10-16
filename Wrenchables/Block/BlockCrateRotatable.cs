@@ -15,7 +15,7 @@ public class BlockCrateRotatable : BlockCrate
     {
         ItemSlot activeSlot = byPlayer.InventoryManager.ActiveHotbarSlot;
 
-        api.Logger.Notification("[Wrenchables] OnBlockInteractStart called. ItemCode: {0}, Ctrl: {1}",
+        api.Logger.Debug("[Wrenchables] OnBlockInteractStart called. ItemCode: {0}, Ctrl: {1}",
             activeSlot?.Itemstack?.Collectible.Code.ToNonNullString() ?? "null",
             byPlayer.Entity.Controls.CtrlKey);
 
@@ -59,7 +59,7 @@ public class BlockCrateRotatable : BlockCrate
 
                     blockEntityCrate.MarkDirty(true);
 
-                    api.Logger.Notification("[Wrenchables] Rotation applied. New MeshAngle: {0}, RotationState: {1}",
+                    api.Logger.Debug("[Wrenchables] Rotation applied. New MeshAngle: {0}, RotationState: {1}",
                         blockEntityCrate.MeshAngle, blockEntityCrate.RotationPhase);
 
                 }

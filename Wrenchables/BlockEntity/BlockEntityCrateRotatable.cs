@@ -118,7 +118,7 @@ public class BlockEntityCrateRotatable : BlockEntityCrate
 
         var groundStorable = contentStack.Collectible?.GetBehavior<CollectibleBehaviorGroundStorable>();
         var stackingModel = groundStorable?.StorageProps?.StackingModel;
-        capi.Logger.Notification("[Wrenchables] Building content mesh for {0}, stackingmodel: {1}, stack size: {2}", contentStack.Collectible?.Code, stackingModel?.ToString() ?? "none", contentStack.StackSize);
+        capi.Logger.Debug("[Wrenchables] Building content mesh for {0}, stackingmodel: {1}, stack size: {2}", contentStack.Collectible?.Code, stackingModel?.ToString() ?? "none", contentStack.StackSize);
 
         ITexPositionSource? contentSource;
         float fillHeight;

@@ -16,7 +16,7 @@ public class ItemTuningWrench : Item
     {
         base.OnLoaded(api);
         HeldPriorityInteract = true;
-        api.Logger.Notification("[Wrenchables] ItemTuningWrench OnLoaded, HeldPriorityInteract set to {0}", HeldPriorityInteract);
+        api.Logger.Debug("[Wrenchables] ItemTuningWrench OnLoaded, HeldPriorityInteract set to {0}", HeldPriorityInteract);
     }
 
     public override void OnHeldInteractStart(ItemSlot slot, EntityAgent byEntity, BlockSelection blockSel, EntitySelection entitySel, bool firstEvent, ref EnumHandHandling handling)
@@ -27,6 +27,7 @@ public class ItemTuningWrench : Item
         if (blockSel != null && byEntity.Controls.CtrlKey)
         {
             Block clickedBlock = world.BlockAccessor.GetBlock(blockSel.Position);
+            api.Logger.Debug("[Wrenchables] Clicked block code: {0}", clickedBlock.Code);
             swapTarget = GetSwapTarget(world, clickedBlock);
         }
 
@@ -45,7 +46,7 @@ public class ItemTuningWrench : Item
         ReplaceBlockWithEntityData(blockSel, world, swapTarget);
 
         handling = EnumHandHandling.PreventDefault;
-        api.Logger.Notification("[Wrenchables] Block exchanged to {0} and entity recreated successfully.", swapTarget.Code);
+        api.Logger.Debug("[Wrenchables] Block exchanged to {0} and entity recreated successfully.", swapTarget.Code);
     }
 
     private static Block? GetSwapTarget(IWorldAccessor world, Block clickedBlock)

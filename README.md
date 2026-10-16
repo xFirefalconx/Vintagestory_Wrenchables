@@ -34,6 +34,10 @@ All Rights Reserved, see the LICENSE file for usage permissions.
 
 # [Update-Changelog]:
 
+### Version 1.0.1
+
+- Moved logging to Debug file. Stability tested successfully.
+
 ### Version 1.0.0
 
 - Initial release.

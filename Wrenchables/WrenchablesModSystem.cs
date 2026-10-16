@@ -43,9 +43,9 @@ public class WrenchablesModSystem : ModSystem
     public override void StartClientSide(ICoreClientAPI api)
     {
         base.StartClientSide(api);
-        api.Logger.Notification("[Wrenchables] StartClientSide reached, registering commands now.");
+        api.Logger.Debug("[Wrenchables] StartClientSide reached, registering commands now.");
         CheckHeldItemViaCommand(api);
-        api.Logger.Notification("[Wrenchables] Command registration call completed.");
+        api.Logger.Debug("[Wrenchables] Command registration call completed.");
     }
 
     private static void CheckHeldItemViaCommand(ICoreClientAPI api)
