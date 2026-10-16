@@ -51,6 +51,10 @@ body:
         - Singleplayer
         - Multiplayer (client)
         - Multiplayer (server)
+        - Multiplayer (both client and server)
+        - Singleplayer and Multiplayer (client)
+        - Singleplayer and Multiplayer (server)
+        - All of the above
     validations:
       required: true
   - type: input
