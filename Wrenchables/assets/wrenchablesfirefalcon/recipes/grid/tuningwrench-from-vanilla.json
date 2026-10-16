@@ -1,0 +1,29 @@
+{
+  "ingredientPattern": "W",
+  "shapeless": true,
+  "copyAttributesFrom": "W",
+  "ingredients": {
+    "W": {
+      "type": "item",
+      "code": "game:wrench-*",
+      "name": "metal",
+      "allowedVariants": [
+        "copper",
+        "tinbronze",
+        "bismuthbronze",
+        "blackbronze",
+        "gold",
+        "silver",
+        "iron",
+        "meteoriciron",
+        "steel"
+      ]
+    }
+  },
+  "width": 1,
+  "height": 1,
+  "output": {
+    "type": "item",
+    "code": "wrenchablesfirefalcon:tuningwrench-{metal}"
+  }
+}

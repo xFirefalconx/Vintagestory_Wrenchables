@@ -1,0 +1,18 @@
+{
+  "ingredientPattern": "W",
+  "shapeless": true,
+  "copyAttributesFrom": "W",
+  "ingredients": {
+    "W": {
+      "type": "item",
+      "code": "wrenchablesfirefalcon:tuningwrench-*",
+      "name": "metal"
+    }
+  },
+  "width": 1,
+  "height": 1,
+  "output": {
+    "type": "item",
+    "code": "game:wrench-{metal}"
+  }
+}

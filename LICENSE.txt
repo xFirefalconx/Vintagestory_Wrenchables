@@ -1,0 +1,22 @@
+Copyright (c) 2026 xFirefalconx aka _Firefalcon_. All Rights Reserved. 
+
+Usage permissions: 
+Private usage of the Mod .zip is allowed. 
+Modpack usage of the Mod .zip is allowed.
+Singleplayer and Server hosting of the Mod .zip is allowed.
+You may share the Mod .zip for Modpacks, please do so by using its official Vintagestory ModDB entry.
+Leaving credits back to this repo is not required, but highly appreciated.
+You may share the Mod .zip privately in a bundled Modpack, together with other mods.
+
+You may use the source code and project files on its repository to bundle the Mod .zip yourself, as long as its contents remain unchanged from the repository; self-bundled Mod .zip files may only be shared privately.
+
+You may read the source code to learn from it. 
+You may use AI/ML Models, as long as the source code of this repository is not used for their training, to explain this project's source code to you.
+
+
+Usage restrictions:
+You may NOT use the source code and files of this repository to train or fine-tune AI/ML Models.
+
+Should this Mod be outdated and you want to make a port, ask for permission first. This GitHub repository is set to public for transparency purposes, thus silently forking is not appreciated.
+
+DO NOT redistribute the source code and files of this repository without permission. Do not reupload the Mod on publicly available third-party sites. No reuploads on Vintagestory ModDB without permission.

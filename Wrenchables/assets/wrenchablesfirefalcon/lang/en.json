@@ -1,0 +1,9 @@
+{
+  "heldhelp-swapcrate": "Swap crate between vanilla and rotatable variant",
+  "heldhelp-rotatecrate": "Rotate crate using wrench",
+  "item-tuningwrench-*": "Wrenchables' {0} Tuning Wrench",
+  "tuningwrench-desc": "Swaps crates between vanilla and rotatable variant (Ctrl+Shift+Right click) and rotates them in {0} degree steps (Ctrl+Right click). After {1} {3}{2} the crate tips onto its side. Change these values in the mod config.",
+  "tuningwrench-desc-singular": "turn",
+  "tuningwrench-desc-whole": "full ",
+  "tuningwrench-desc-plural": "turns"
+}

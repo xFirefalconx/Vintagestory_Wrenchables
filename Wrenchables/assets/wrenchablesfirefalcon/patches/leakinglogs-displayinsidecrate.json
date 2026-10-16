@@ -1,0 +1,14 @@
+[
+  {
+    "file": "game:blocktypes/wood/woodtyped/log-withresin.json",
+    "op": "add",
+    "path": "/attributesByType/*/displayInsideCrate",
+    "value": true
+  },
+  {
+    "file": "game:blocktypes/wood/woodtyped/log-withresin.json",
+    "op": "add",
+    "path": "/attributesByType/log-resinharvested-*/displayInsideCrate",
+    "value": true
+  }
+]

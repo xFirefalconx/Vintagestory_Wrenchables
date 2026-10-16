@@ -1,0 +1,12 @@
+{
+  "$schema": "https://moddbcdn.vintagestory.at/schema/modinfo.latest.json",
+  "type": "Code",
+  "modid": "wrenchablesfirefalcon",
+  "name": "Wrenchables by _Firefalcon_",
+  "authors": ["_Firefalcon_"],
+  "description": "I want to use the wrench on my things, it's that simple.",
+  "version": "1.0.0",
+  "dependencies": {
+    "game": "1.22.0"
+  }
+}

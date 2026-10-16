@@ -1,0 +1,14 @@
+[
+  {
+    "file": "game:itemtypes/resource/firewood.json",
+    "op": "add",
+    "path": "/attributes/displayInsideCrate",
+    "value": true
+  },
+  {
+    "file": "game:itemtypes/resource/firewood-aged.json",
+    "op": "add",
+    "path": "/attributes/displayInsideCrate",
+    "value": true
+  }
+]
