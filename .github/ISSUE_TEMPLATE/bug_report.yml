@@ -15,7 +15,7 @@ body:
         - Crash
     validations:
       required: true
-    - type: input
+  - type: input
     id: game-version
     attributes:
       label: Vintage Story version
