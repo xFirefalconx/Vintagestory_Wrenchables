@@ -1,11 +1,20 @@
 name: Bug report
 description: Create a report to help with improvements
 title: "V[?.?.?] Bug name"
-labels: []
 assignees:
   - xFirefalconx
 type: Bug
 body:
+  - type: dropdown
+    id: crash
+    attributes:
+      label: Does the game crash?
+      description: Choose "Crash" if the game or server closes unexpectedly. If so, please also put [Crash] at the start of the issue title.
+      options:
+        - No crash
+        - Crash
+    validations:
+      required: true
   - type: textarea
     id: description
     attributes:
