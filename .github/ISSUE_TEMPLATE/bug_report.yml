@@ -1,6 +1,6 @@
 name: Bug report
 description: Create a report to help with improvements
-title: "V[?.?.?] Bug name"
+title: "[Crash?] V[?.?.?] Bug name"
 assignees:
   - xFirefalconx
 type: Bug
